@@ -1,0 +1,190 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+
+.auth1{
+  background-color: #161A30 ;
+  color: #c9c9c9;
+  height: 100vh;
+  z-index: 4;
+
+}
+.container1{
+  max-width: 95%;
+  max-height: 100vh;
+  margin: auto;
+ 
+}
+
+.navbar1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+.navbar1 a{
+  color: #c9c9c9;
+}
+
+
+.img1{
+  
+  font-size: 60px;
+  margin-left: 77px;
+  flex: 1.9;
+}
+.img1 img{
+  width: 120px;
+
+}
+.infos1{
+  flex: 4.8;
+
+}
+.infos1 ul{
+  display: flex;
+  list-style-type: none;
+  
+ 
+}
+.infos1 ul li{
+  padding-left: 70px;
+  transition: .5s;
+}
+.infos1 ul li:hover{
+  color: #5F65F4;
+  cursor: pointer;
+}
+
+
+
+.contact1 span{
+  border: 1px solid whitesmoke;
+  padding: 11px 35px;
+  transition: .5s;
+  cursor: pointer;
+ 
+}
+.contact1 span:hover{
+  background-color: #5F65F4;
+  border: none;
+}
+.contact1 a{
+  text-decoration: none;
+}
+
+
+
+.main1{
+  display: flex;
+  /* align-items: center; */
+  padding: 120px 90px 0px 90px;
+  /* overflow: hidden; */
+  
+  /* flex-wrap: wrap; */
+}
+.main1 .left{
+  padding-top: 70px;
+ 
+}
+.main1 .left h3{
+  color: #5F65F4;
+}
+.main1 .left h1{
+  color: #F5F7F8;
+}
+
+.main1 button{
+  border: none;
+  padding: 10px 30px;
+  color: whitesmoke;
+  background-color: #5F65F4;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .5s;
+ 
+}
+.main1 input{
+  outline: none;
+  padding: 10px 25px;
+  text-transform: capitalize;
+  border-radius: 8px;
+  border: none;
+}
+.main1 button:hover{
+ 
+  color: black;
+  background-color: #c9c9c9;
+}
+
+
+.main1 .imag1 img{
+  padding-left: 30px;
+  height: 33.7rem;
+  width: 34rem;
+  margin-top: -90px;
+ 
+
+}
+
+/* .main1 .imag1 .bg-color1{
+  background-color: #B2A4FF;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 30px;
+  overflow: hidden;
+  right:150px;
+  top:120px;
+} */
+
+
+/* .lg-out{
+  display: none;
+} */
+
+@media screen and (max-width:1018px){
+  .img1{
+    margin-left: 0px;
+  }
+  .contact1{
+      flex: none;
+  }
+  .navbar .img{
+      margin-left: 0px;
+  }
+  .infos1{
+      display: none;
+  }
+
+.left1{
+  padding-top: 70px;
+  max-width: 96%;
+  margin: auto;
+}
+  .main1{
+      display: block;
+      padding: 0;
+  }
+  .main .img {
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+  }
+  
+  .main1 .imag1 img{
+      display: none;
+  }
+  .main1 .imag1 .bg-color1{
+      width: 24rem;
+      /* height: 24rem; */
+      margin-top: -120px;
+      margin-left: -80px;
+      right: 0px;
+      top: 0px;
+  }
+}
